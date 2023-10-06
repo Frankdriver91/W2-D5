@@ -1,4 +1,4 @@
-main {
+body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1;
   display: block;
@@ -9,32 +9,55 @@ main {
 
 .logo-cntr {
   text-align: left;
-  background-color: rgb(40, 32, 87);
-}
-
-.logo-amazon {
-  font-size: small;
-  padding: 8px;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  display: block;
+  background-color: #131921;
+  padding-bottom: 3px;
 }
 
 .caption {
   color: white;
-  background-color: rgb(56, 54, 81);
-  margin-inline: auto;
-  padding-left: 800px;
-  text-align: left;
-  font-size: small;
+  background-color: #232f3e;
+  padding-right: 800px;
 }
 
 .banner {
   background-color: rgb(255, 106, 0);
-  padding: 0.5px;
+  padding: 5px;
   margin-top: 35px;
   color: white;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.ad-container {
+  background-image: url(../images/bg-image.png);
+  color: white;
+  padding: 20px;
+  margin: 35px;
+}
+
+.imgs-container {
+  padding: 10px;
+  width: 23%;
+}
+
+#image {
+  width: 300px;
+  height: 350px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.logo-footer {
+  background-color: #131921;
+  padding: 30px;
+}
+
+.link-top {
+  background-color: #232f3e;
+  color: white;
+  padding: 5px;
+}
+
+#logo-amazon {
+  width: 80px;
 }
